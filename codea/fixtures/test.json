@@ -1,0 +1,603 @@
+[
+    {
+        "pk": 1, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Conscious Programming"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Methods"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Method Arguments"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Objects"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Programming"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Test-Driven Development"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Tests"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Process"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Estimating"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Requirements"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Refactoring"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Product Design"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Design Patterns"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Coupling"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Design Principle"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Fan out"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Data"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "codea.tags", 
+        "fields": {
+            "tag": "Jargon"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Alan Cooper"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Andrew Hunt"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "David Thomas"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Elisabeth Freeman"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Eric Freeman"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Erich Gamma"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Gerald Sussman"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Harold Abelson"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "John Vlissides"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Julie Sussman"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Karl Wiegers"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Kent Beck"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Martin Fowler"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Ralph Johnson"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Richard Helm"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Steve McConnell"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "codea.author", 
+        "fields": {
+            "name": "Mike Cohn"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "Implementation Patterns"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "Test-Driven Development"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "Software Estimation: Demystifying the Black Art"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "Software Requirements"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "UML Distilled"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "Refactoring: Improving the Design of Existing Code"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "The Pragmatic Programmer"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "The Inmates are Running the Asylum"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "Design Patterns"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "Head First Design Patterns"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "Code Complete"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "Structure and Interpretation of Computer Programs"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "codea.book", 
+        "fields": {
+            "name": "Succeeding with Agile: Software Development using Scrum"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                12
+            ], 
+            "tags": [
+                1
+            ], 
+            "quote": "Focusing on communication improves thinking by being more realistic.  Part of the improvement comes from engaging more of my brain.  When I think, \"How would someone else see this?\" different neurons are firing than when I'm just focused on myself and my computer.  I take a step back from my isolated perspective and see my problem and solution anew.", 
+            "paragraph": 2, 
+            "book": 1, 
+            "page": 11
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                12
+            ], 
+            "tags": [
+                6, 
+                7
+            ], 
+            "quote": "What should you test?  Before you begin, write a list of all the tests you know you will have to write.  The first part of our approach to dealing with programming stress is never to take a step forward unless we know where our foot is going to land.  When we sit down to a programming session, whit is it we intend to accomplish?", 
+            "paragraph": 2, 
+            "book": 2, 
+            "page": 126
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                16
+            ], 
+            "tags": [
+                8, 
+                9
+            ], 
+            "quote": "When you're asked to provide an estimate, determine whether you'are supposed to be estimating or figuring out how to hit a target.", 
+            "paragraph": 0, 
+            "book": 3, 
+            "page": 6
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                11
+            ], 
+            "tags": [
+                10
+            ], 
+            "quote": "Record the effort your team expends on requirements development and management activities.  Use this data to assess whether the planned requirements activities are being performed as intended and to better plan the resources needed for future projects.  In addition, monitor the effect that your requirements engineering activities have on the project.  This will help you judge the return on your investment in requirements engineering.", 
+            "paragraph": 3, 
+            "book": 4, 
+            "page": 57
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                13
+            ], 
+            "tags": [
+                4
+            ], 
+            "quote": "Despite this, object bigots like me strongly prefer distributed control.  One of the main goals of good design is to localize the effects of change.  Data and behavior that accesses that data often change together.  So putting the data and the behavior that uses it together in one place is the first rule of object-oriented design.", 
+            "paragraph": 3, 
+            "book": 5, 
+            "page": 56
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                13
+            ], 
+            "tags": [
+                11
+            ], 
+            "quote": "Here's a guideline Don Roberts gave me: The first time you do something, you just do it.  The second time you do something similar, you wince at the duplication, but you do the duplicate thing anyway.  The third time you do something similar, you refactor.", 
+            "paragraph": 2, 
+            "book": 6, 
+            "page": 58
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                2, 
+                3
+            ], 
+            "tags": [
+                1
+            ], 
+            "quote": "Don't leave \"broken windows\" (bad designs, wrong decisions, or poor code) unrepaired.  Fix each one as soon as it is discovered.  If there is insufficient time to fix it properly, then board it up.  Perhaps you can comment out the offending code, or display a \"Not Implemented\" message, or substitute dummy data instead.  Take some action to prevent further damage and to show that you're on top of the situation.", 
+            "paragraph": 3, 
+            "book": 7, 
+            "page": 5
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                1
+            ], 
+            "tags": [
+                12
+            ], 
+            "quote": "If you want to create a product that satisfies a broad audience of users, logic will tell you to make it as broad in its functionality as possible to accommodate the most people.  Logic is wrong.  You will have far greater success by designing for a single person.", 
+            "paragraph": 5, 
+            "book": 8, 
+            "page": 124
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                6, 
+                9, 
+                14, 
+                15
+            ], 
+            "tags": [
+                13, 
+                14
+            ], 
+            "quote": "Classes that are tightly coupled are hard to reuse in isolation, since they depend on each other.  Tight coupling leads to monolithic systems, where you can't change or remove a class without understanding and changing many other classes.  The system becomes a dense mass that's hard to learn, port, and maintain.\r\n\r\nLoose coupling increases the probability that a class can be reused by itself and that a system can be learned, ported, modified, and extended more easily.  Design patterns use techniques such as abstract coupling and layering to promote loosely coupled systems.\r\n\r\nDesign patterns: Abstract Factory, Bridge, Chain of Responsibility, Command, Facade, Mediator, Observer", 
+            "paragraph": 9, 
+            "book": 9, 
+            "page": 24
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                4, 
+                5
+            ], 
+            "tags": [
+                15
+            ], 
+            "quote": "Program to an interface, not an implementation.", 
+            "paragraph": 0, 
+            "book": 10, 
+            "page": 75
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                16
+            ], 
+            "tags": [
+                16, 
+                17
+            ], 
+            "quote": "Minimize the number of different routines called by a class.\r\n\r\nOne study found that the number of faults in a class was statistically correlated with the total number of routines that were called  form within a class (Basili, Briand, and Melo 1996).  The same study found that the more classes a class used, the higher its fault rate tended to be.  These concepts are sometimes called \"fan out\".", 
+            "paragraph": 4, 
+            "book": 11, 
+            "page": 150
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                7, 
+                8, 
+                10
+            ], 
+            "tags": [
+                18
+            ], 
+            "quote": "The implementation of Scheme we shall consider in chapter 5 does not share this defect.  It will execute an iterative process in constant space, even if the iterative process is described by a recursive procedure.  An implementation with this property is called tail-recursive.", 
+            "paragraph": 3, 
+            "book": 12, 
+            "page": 35
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "codea.quotes", 
+        "fields": {
+            "author": [
+                17
+            ], 
+            "tags": [
+                6, 
+                17
+            ], 
+            "quote": "There is evidence that doing TDD takes about 15% longer than not doing TDD (George and Williams 2003).  But there is also evidence that TDD leads to fewer defects.  Two studies at Microsoft found that the number of bugs found went down by 24% and 38% with the use of TDD (Sanchez, Williams, and Maximilien 2007, 6).  So, yes, TDD may take longer initially, but the time will come back to the team in the form of reduced bug fixing and maintenance time.", 
+            "paragraph": 1, 
+            "book": 13, 
+            "page": 158
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "codea.hierarchydb", 
+        "fields": {
+            "tag": 5, 
+            "parent": null, 
+            "left": null
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "codea.hierarchydb", 
+        "fields": {
+            "tag": 4, 
+            "parent": 5, 
+            "left": null
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "codea.hierarchydb", 
+        "fields": {
+            "tag": 5, 
+            "parent": 2, 
+            "left": null
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "codea.hierarchydb", 
+        "fields": {
+            "tag": 5, 
+            "parent": 3, 
+            "left": null
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "codea.hierarchydb", 
+        "fields": {
+            "tag": 1, 
+            "parent": 5, 
+            "left": 4
+        }
+    }
+]
