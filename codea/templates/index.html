@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+
+<body>
+
+By tag:<br/>
+{% for tag in tags %}
+<a href="/by_tag?id={{tag.pk}}">{{ tag.tag }}</a><br>
+{% endfor %}
+<br/>
+<br/>
+
+
+By book:<br/>
+{% for book in books %}
+<a href="/by_book?id={{book.pk}}">{{ book.name }}</a><br>
+{% endfor %}
+<br/>
+<br/>
+
+By author:<br/>
+{% for author in authors %}
+<a href="/by_author?id={{author.pk}}">{{ author.name }}</a><br>
+{% endfor %}
+
+</body>
+
+</html>

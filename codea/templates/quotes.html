@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+
+<body>
+{% for quote in quotes %}
+{{ quote.quote }}<br>
+{{ quote.book.name }} - {% for author in quote.author.all %}{{ author.name }}{% if not forloop.last %}, {% endif %}{% endfor %}, page {{ quote.page }}{% if quote.paragraph %} paragraph {{ quote.paragraph }}{% endif %}<br/>
+<br/><br/>
+{% endfor %}
+
+</body>
+
+</html>
