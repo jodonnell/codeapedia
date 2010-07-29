@@ -1,4 +1,4 @@
-from codea.models import Tags, Quotes
+from codea.models import Tags, Quotes, Book, Author
 from django.contrib import admin
 
 class QuotesAdmin(admin.ModelAdmin):
@@ -6,3 +6,5 @@ class QuotesAdmin(admin.ModelAdmin):
 
 admin.site.register(Tags)
 admin.site.register(Quotes, QuotesAdmin)
+admin.site.register(Book)
+admin.site.register(Author)
